@@ -15,17 +15,10 @@ public class Car {
         return name;
     }
 
-    public int getWheels() {
-        return wheels;
-    }
-
     public int getCylinders() {
         return cylinders;
     }
 
-    public boolean isEngine() {
-        return engine;
-    }
 
     public String startEngine() {
         return "Car->startEngine(): Engine is starting...";
